@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/addToDo"
+        android:icon="@drawable/ic_add_black_48dp"
+        android:orderInCategory="1"
+        android:title="Add TO-DO"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/filterToDo"
+        android:icon="@drawable/ic_filter_list_black_48dp"
+        android:orderInCategory="2"
+        android:title="Filter Items"
+        app:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundborder"
+    android:padding="5dp"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/taskdone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+    android:layout_toLeftOf="@id/taskdone"
+    android:layout_toStartOf="@id/taskdone">
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="To do description"/>
+
+    <TextView
+        android:id="@+id/dueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="casual"
+        android:text=""/>
+</LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
